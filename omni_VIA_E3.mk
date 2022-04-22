@@ -27,9 +27,3 @@ PRODUCT_BRAND := Casper
 PRODUCT_MODEL := VIA_E3
 PRODUCT_MANUFACTURER := casper
 PRODUCT_RELEASE_NAME := Casper VIA_E3
-
-# enable stock zip packages flash
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.secure=1 \
-    ro.adb.secure=0 \
-    ro.allow.mock.location=0
