@@ -1,5 +1,4 @@
-ro.product.brand=Casper
-ro.product.name=VIA_E3
-ro.product.device=VIA_E3
-ro.build.product=VIA_E3
-ro.treble.enabled=true
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
+ro.adb.secure=0
