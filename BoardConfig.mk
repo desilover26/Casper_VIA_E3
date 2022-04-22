@@ -45,8 +45,8 @@ TARGET_USES_64_BIT_BINDER := true
 BOARD_USES_MTK_HARDWARE := true
 BOARD_HAS_MTK_HARDWARE := true
 
-TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
-TARGET_RECOVERY_INITRC := $(LOCAL_PATH)/recovery/root/init.recovery.mt6761.rc
+# system.prop
+TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 
 # Debugging
 TARGET_USES_LOGD := true
